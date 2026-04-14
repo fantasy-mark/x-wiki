@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p raw)",
+      "Bash(touch raw/.gitkeep)",
+      "Bash(curl -s \"https://www.toutiao.com/article/7608121275038384655/?wid=1775989077748\")",
+      "mcp__chrome-devtools__new_page",
+      "mcp__chrome-devtools__wait_for",
+      "mcp__chrome-devtools__take_snapshot"
+    ],
+    "deny": [
+      "WebFetch"
+    ]
+  }
+}
