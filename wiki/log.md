@@ -4,3 +4,5 @@
 
 ## [2026-04-14] lint | 1 issues found, 1 auto-fixed
 
+## [2026-04-14] ingest | 实用开发者工具导航
+
