@@ -2,6 +2,7 @@
 
 > Sources: ZhangHandong, 2026-04-15
 > Raw: [2026-04-15-harness-engineering-preface.md](../../raw/ai-tools/2026-04-15-harness-engineering-preface.md)
+> Updated: 2026-04-15
 
 ## Overview
 
@@ -79,5 +80,5 @@
 
 ## See Also
 
-- [chrome-devtools-mcp-setup](./chrome-devtools-mcp-setup.md)
-- [useful-developer-tools-collection](./useful-developer-tools-collection.md)
+- [chrome-devtools-mcp-setup]([[chrome-devtools-mcp-setup]])
+- [useful-developer-tools-collection]([[useful-developer-tools-collection]])

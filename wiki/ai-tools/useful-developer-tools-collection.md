@@ -2,7 +2,7 @@
 
 > Sources: User collection, 2026-04-14
 > Raw: [2026-04-14-useful-developer-tools-collection.md](../../raw/ai-tools/2026-04-14-useful-developer-tools-collection.md)
-> Updated: 2026-04-14
+> Updated: 2026-04-15
 
 整理了各类提升开发效率的实用工具网站、插件和代码片段。
 
@@ -212,6 +212,7 @@ huggingface-cli download --resume-download bartowski/codegeex4-all-9b-GGUF --inc
 
 ## See Also
 
-- [Chrome DevTools MCP 安装配置](./chrome-devtools-mcp-setup.md)
+- [Chrome DevTools MCP 安装配置]([[chrome-devtools-mcp-setup]])
+- [驾驭工程]([[harness-engineering]])
 
 *(原始内容被截断，收录到此为止)*

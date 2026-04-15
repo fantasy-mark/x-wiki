@@ -16,5 +16,5 @@
 ## See Also
 
 {Cross-references to related wiki articles. Maintained during lint. Use relative links:
-- Same topic: [Other Article](other-article.md)
-- Different topic: [Other Article](../other-topic/other-article.md)}
+- Same topic: [Other Article]([[{other-article}]])
+- Different topic: [Other Article]([[{other-article}]])}

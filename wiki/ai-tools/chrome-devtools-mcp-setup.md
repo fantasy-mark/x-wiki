@@ -2,6 +2,7 @@
 
 > Sources: AI工匠郑工长, 2026-02-18
 > Raw: [2026-02-18-opencode-chrome-devtools-mcp-ai-see-web.md](../../raw/ai-tools/2026-02-18-opencode-chrome-devtools-mcp-ai-see-web.md)
+> Updated: 2026-04-15
 
 ## Overview
 
@@ -128,4 +129,5 @@ google-chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-profile
 
 ## See Also
 
-- OpenCode 集成介绍（原始文章）：[2026-02-18-opencode-chrome-devtools-mcp](../../raw/ai-tools/2026-02-18-opencode-chrome-devtools-mcp-ai-see-web.md)
+- [驾驭工程]([[harness-engineering]])
+- [实用开发者工具导航]([[useful-developer-tools-collection]])

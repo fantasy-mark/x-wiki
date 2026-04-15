@@ -142,7 +142,8 @@ Fix these automatically:
 - File exists but missing from index → add entry with `(no summary)` placeholder. For Updated, use the article's metadata Updated date if present; otherwise fall back to file's last modified date.
 - Index entry points to nonexistent file → mark as `[MISSING]` in the index. Do not delete the entry; let the user decide.
 
-**Internal links** — for every markdown link in wiki/ article files (body text and Sources metadata), excluding Raw field links (validated by Raw references below) and excluding index.md/log.md (handled above):
+**Internal links** — for every markdown link in wiki/ article files (body text and Sources metadata), excluding Raw field links (validated by Raw references below) and excluding index.md/log.md/Contents.md (handled above):
+
 - Target does not exist → search wiki/ for a file with the same name elsewhere.
   - Exactly one match → fix the path.
   - Zero or multiple matches → report to the user.
@@ -153,7 +154,7 @@ Fix these automatically:
   - Zero or multiple matches → report to the user.
 
 **See Also** — within each topic directory:
-- Add obviously missing cross-references between related articles.
+- Add obviously missing cross-references between related articles. Use `[[{article}]]` as link format.
 - Remove links to deleted files.
 
 ### Heuristic Checks (report only)
