@@ -1,15 +1,40 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir -p raw)",
-      "Bash(touch raw/.gitkeep)",
-      "Bash(curl -s \"https://www.toutiao.com/article/7608121275038384655/?wid=1775989077748\")",
+      "Bash(touch *)",
+      "Bash(ls -la *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head -n * *)",
+      "Bash(tail -n * *)",
+      "Bash(find * -type f -name *)",
+      
+      "Bash(echo *)",
+      "Bash(grep * *)",
+      "Bash(sed *)",
+      "Bash(awk *)",
+      "Bash(sort *)",
+      "Bash(wc *)",
+      "Bash(uniq *)",
+          
+      "Bash(git status)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git add *)",
+      "Bash(git pull)",
+      
+      "Bash(ping -c * *)",
+      "Bash(nslookup *)",
+      
       "mcp__chrome-devtools__new_page",
       "mcp__chrome-devtools__wait_for",
-      "mcp__chrome-devtools__take_snapshot"
+      "mcp__chrome-devtools__take_snapshot",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__list_pages"
     ],
     "deny": [
-      "WebFetch"
+      "WebFetch",
+      "curl"
     ]
   }
 }
