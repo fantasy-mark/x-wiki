@@ -82,3 +82,4 @@
 
 - [chrome-devtools-mcp-setup]([[chrome-devtools-mcp-setup]])
 - [useful-developer-tools-collection]([[useful-developer-tools-collection]])
+- [Claude Code 源码深度解读：从 Harness 视角]([[claude-code-harness-architecture-deep-dive]]) — 同源分析，源码架构与本书互为补充
