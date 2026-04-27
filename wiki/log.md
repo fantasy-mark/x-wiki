@@ -61,3 +61,8 @@
 - Skip: CUDA安装配置.md（仅1行）、binder走读.md（Android超范围）、docker代理.md（内网配置）
 - Updated: index.md
 
+## [2026-04-27] lint | 1 issues found, 1 auto-fixed
+- Fixed: Contents.md（Logseq语法残留 `{{embed [[index]]}}` → 标准 Markdown）
+- Verified: 24 wiki 文章内部链接全部有效
+- Verified: 24 条 Raw 引用全部指向存在文件
+- Verified: index.md 条目与文件系统一致
