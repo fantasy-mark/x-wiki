@@ -48,3 +48,16 @@
 ## [2026-04-26] ingest | 真正的顺势框架：三步法 + 四问自保
 - Updated: index.md
 
+## [2026-04-27] ingest | 从 Logseq 迁移高价值技术文档（批量）
+- From: C:\project\log-save\pages\
+- Raw: 7 篇（Transformer/pytorch/RAG/机器学习/llama_index/强化学习/论文精读）
+- Wiki: 7 篇，均为 ai-tools 分类
+- Updated: index.md
+
+## [2026-04-27] ingest | P2 批次迁移
+- From: C:\project\log-save\pages\
+- Raw: 4 篇（huggingface/lookahead/mkdocs/mkdocs-code）
+- Wiki: 4 篇（ai-tools ×2 + dev-tools ×2，新开 dev-tools 分类）
+- Skip: CUDA安装配置.md（仅1行）、binder走读.md（Android超范围）、docker代理.md（内网配置）
+- Updated: index.md
+

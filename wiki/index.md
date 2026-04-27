@@ -15,6 +15,15 @@ AI 工具、开发助手、自动化工作流相关文章。
 | [CLI：Agent 时代的执行层]([[cli-the-future-of-agent]]) | CLI 为何成为 Agent 核心执行层：历史逻辑（三段证据）+ CLI vs MCP 互补分析 + 三种 CLI 形态（工具型/平台型/Agent型） | 2026-04-26 |
 | [大模型推理的硬件数据流全解]([[llm-inference-hardware-dataflow]]) | 从磁盘到显存的 6 步拆解：Prefill（Compute-bound）vs Decode（Memory-bound）+ KV Cache + 多卡张量并行，核心：Decode 慢不是算不够，是搬运慢 | 2026-04-26 |
 | [Anthropic 工程博客：Harness 设计让 AI 做对事]([[anthropic-harness-design-long-running-app]]) | Anthropic 官方工程博客：三层 Agent 架构（planner/generator/evaluator）+ context reset + 模型变强后 harness 瘦身，核心：模型负责做事，Harness 负责让它做对事 | 2026-04-26 |
+| [Attention Is All You Need — 论文精读 + Annotated Transformer 实现]([[attention-is-all-you-need-annotated]]) | 1073 行逐行 PyTorch 实现，包含所有组件代码：Encoder/Decoder/Attention/FFN/位置编码/Warmup LR/Label Smoothing，附完整分布式训练入口 | 2026-04-27 |
+| [PyTorch 框架源码架构]([[pytorch-framework-architecture]]) | PyTorch 三层架构（torch/ATen/C10）+ TorchDynamo JIT 编译 + C++/CUDA 扩展编写 + 显存管理机制（Block/BlockPool） | 2026-04-27 |
+| [RAG 系统概述]([[rag-system-overview]]) | RAG 三大环节（Indexing/Retrieval/Generation）+ 技术栈选型 + SFT/DPO/RAG 三阶段训练方案，准确率从 60% 提升至 90%+ | 2026-04-27 |
+| [机器学习核心概念]([[ml-core-concepts]]) | Embedding 作用、监督/自监督/无监督学习、对比学习（Pretext Task）、强化学习基础、Instruct 与 Prompting 方法演进 | 2026-04-27 |
+| [LlamaIndex 使用指南]([[llamaindex-usage-guide]]) | SimpleDirectoryReader 多格式加载 + PDF 翻译 pipeline + Streamlit 图形化应用代码，完整可运行示例 | 2026-04-27 |
+| [强化学习基础]([[reinforcement-learning-basics]]) | RL 核心概念（Agent/Environment/State/Action/Reward）+ Q-Learning/SARSA/DQN/PPO/DDPG/SAC 等算法分类 + 应用场景 | 2026-04-27 |
+| [论文精读笔记]([[paper-reading-notes]]) | CLIP/MAE/MoCo/DETR/DALL-E2/ViT/DDPM + 推理优化（Lookahead/GaLore）+ 代码生成（CodeX/AlphaCode）+ 数学辅助 LLM | 2026-04-27 |
+| [Hugging Face 实战笔记]([[huggingface-bert-wav2vec2]]) | Wav2Vec2 中文 ASR + BERT QA SQuAD 2.0 微调（Example→Features→Result 全流程）+ 模型结构解析 | 2026-04-27 |
+| [Lookahead 推理加速框架]([[lookahead-inference-acceleration]]) | 多分支并行预测加速 LLM 推理，lossless 生成精度：核心洞察是瓶颈在串行依赖而非计算量 | 2026-04-27 |
 
 ## macro-trading
 
@@ -32,3 +41,12 @@ AI 工具、开发助手、自动化工作流相关文章。
 | Article | Summary | Updated |
 |---------|---------|---------|
 | [Hermes 多 Agent 协作：不是技术，是管理]([[hermes-multi-agent-management-lessons]]) | Hermes + Discord 三人小组完整搭建记录，踩三个坑（无@、死循环、同时@）并修复，核心：Profile=工位，SOUL.md=职责说明书 | 2026-04-26 |
+
+## dev-tools
+
+开发工具、文档系统相关文章。
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [MkDocs 使用指南]([[mkdocs-user-guide]]) | MkDocs + Material 主题 + drawio 集成 + markmap 思维导图 + 阿里云 Nginx 私有化部署完整指南 | 2026-04-27 |
+| [MkDocs 源码走读笔记]([[mkdocs-code-walkthrough]]) | v0.2 → v0.13 → v1.4.3 演化：Click 装饰器机制、插件事件系统、CLI 架构理解 | 2026-04-27 |
