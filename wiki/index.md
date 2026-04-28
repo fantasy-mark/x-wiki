@@ -23,7 +23,7 @@ AI 工具、开发助手、自动化工作流相关文章。
 | [强化学习基础]([[reinforcement-learning-basics]]) | RL 核心概念（Agent/Environment/State/Action/Reward）+ Q-Learning/SARSA/DQN/PPO/DDPG/SAC 等算法分类 + 应用场景 | 2026-04-27 |
 | [论文精读笔记]([[paper-reading-notes]]) | CLIP/MAE/MoCo/DETR/DALL-E2/ViT/DDPM + 推理优化（Lookahead/GaLore）+ 代码生成（CodeX/AlphaCode）+ 数学辅助 LLM | 2026-04-27 |
 | [Hugging Face 实战笔记]([[huggingface-bert-wav2vec2]]) | Wav2Vec2 中文 ASR + BERT QA SQuAD 2.0 微调（Example→Features→Result 全流程）+ 模型结构解析 | 2026-04-27 |
-| [Lookahead 推理加速框架]([[lookahead-inference-acceleration]]) | 多分支并行预测加速 LLM 推理，lossless 生成精度：核心洞察是瓶颈在串行依赖而非计算量 | 2026-04-27 |
+| [Lookahead 推理加速框架]([[lookahead-inference-acceleration]]) | 蚂蚁集团 KDD 2024 论文：Trie树检索 + 多分支草稿 + 并行VA验证，AntGLM-10B 5.36x 加速；补充区分同名工作 Lookahead Decoding | 2026-04-28 |
 
 ## macro-trading
 

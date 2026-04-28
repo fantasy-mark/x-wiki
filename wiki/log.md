@@ -66,3 +66,8 @@
 - Verified: 24 wiki 文章内部链接全部有效
 - Verified: 24 条 Raw 引用全部指向存在文件
 - Verified: index.md 条目与文件系统一致
+
+## [2026-04-28] update | Lookahead 推理加速框架
+- 补充来源: Kimi 研究 + 原论文 arxiv.org/html/2312.12728
+- 新增: Trie树检索/多分支草稿/VA并行验证三阶段详解、性能数据、与 Fu et al. 同名工作区分、代码适配信息
+- Updated: index.md
