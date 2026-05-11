@@ -23,3 +23,5 @@ if %errorlevel% neq 0 (
 )
 
 echo §¹¦¨¡I
+
+pause
